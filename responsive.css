@@ -1,6 +1,11 @@
 @media screen and (max-width:425px){
 
-    .header h2,nav,.header button{
+    .banner,main,.header{
+        max-width: 90%;
+        margin: 0px auto;
+    }
+
+    .header h2,nav,.header button, .arrows{
         display: none;
     }
     .nav-icon{
@@ -45,6 +50,12 @@
     .banner-content button{
         width: 132px;
         font-size: 1rem;
+    }
+
+    .curriculam-cards{
+
+        flex-direction: column;
+
     }
 
 

@@ -4,9 +4,14 @@
     margin: 0;
     padding: 0;
 }
+
+main{
+    width: 1200px;
+    margin: 0px auto;
+}
 /* header section*/
-header{
-    width: 90%;
+.header{
+    max-width: 1200px;
     margin: 0px auto;
     margin-top: 20px;
 }
@@ -66,13 +71,12 @@ a{
 
 
 
-main{
-    width: 90%;
-    margin: 0px auto;
-}
+
 
 /* Banner - section */
 .banner{
+    width: 1200px;
+    margin: 0px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -108,4 +112,86 @@ main{
     font-size: 1.25rem;
     font-weight: 700;
     margin-top: 24px;
+}   
+
+
+/* Main section start */
+/* .curriculam{
+    background-image: url(./assets/bg.png);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+   
+} */
+.curriculam-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.curriculam h1{
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+}
+.card{
+    max-width: 367px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 19px;
+    margin-top: 80px;
+    background: linear-gradient(to bottom, rgba(222, 245, 255, 1),rgba(255, 255, 255, 1));
+    border: 1px solid rgba(222, 245, 255, 1);
+}
+.card h3{
+    font-size: 1.53rem;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.card p{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 34px;
+    color: rgba(128, 128, 128, 1);
+}
+#rm1{
+    color: rgba(100, 200, 255, 1);
+}
+
+#card2{
+    background: linear-gradient(to bottom, rgba(255, 244, 220, 1),rgba(255, 255, 255, 1));
+    border: 1px solid rgba(255, 244, 220, 1);
+}
+#rm2{
+    color: rgba(240, 170, 0, 1);
+}
+
+#card3{
+    background: linear-gradient(to bottom, rgba(242, 232, 255, 1),rgba(255, 255, 255, 1));
+    border: 1px solid rgba(242, 232, 255, 1);
+}
+#rm3{
+    color: rgba(135, 0, 255, 1);
+    
+}
+
+.arrows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.arrow{
+    height: 60px;
+    border-radius: 30px;
+    background:rgba(254, 163, 1, 1);
+    width: 60px;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
 }
