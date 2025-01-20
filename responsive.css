@@ -1,7 +1,67 @@
-@media screen and (max-width:700px){
+@media screen and (max-width:425px){
 
-    body{
-        background:  brown;
+    .header h2,nav,.header button{
+        display: none;
     }
+    .nav-icon{
+        display: inline;
+    }
+    .nav-icon i{
+        display: inline;
+        font-size: 45px;
+    }
+
+    .line{
+        width: 100%;
+        border: 0.01rem solid rgba(254, 163, 1, 1);
+        margin-top: 15px;
+    }
+
+    /* Banner-section */
+    .banner{
+        flex-direction: column;
+    }
+
+    .banner img{
+        width: 100%;
+    }
+
+    .banner-content{
+        order: 2;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .banner-img{
+        order: 1;
+        margin-top: 20px;
+    }
+
+    .banner-content h1{
+        font-size: 2rem;
+    }
+    .banner-content p{
+        font-size: 1rem;
+    }
+    .banner-content button{
+        width: 132px;
+        font-size: 1rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 }

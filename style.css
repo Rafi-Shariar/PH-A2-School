@@ -4,3 +4,108 @@
     margin: 0;
     padding: 0;
 }
+/* header section*/
+header{
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;        
+
+}
+.logo h2{
+    font-size: 2rem;
+    font-family: 700;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 32px;
+}
+.header button{
+    background: rgba(254, 163, 1, 1);
+    color: aliceblue;
+    border: 0;
+    border-radius: 12px;
+    height: 50px;
+    width: 197px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+#home{
+    color: rgba(254, 163, 1, 1);
+    font-weight: 700;
+}
+#about{
+    color:rgba(1, 172, 253, 1) ;
+    font-weight:500 ;
+}
+#faci{
+    color: rgba(5, 212, 223, 1);
+    font-weight:500 ;
+}
+#add{
+    color: #5D58EF;
+    font-weight:500 ;
+}
+
+
+.nav-icon i , .nav-icon{
+    display: none;
+}
+
+
+
+main{
+    width: 90%;
+    margin: 0px auto;
+}
+
+/* Banner - section */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    max-width: 640px;
+}
+
+.banner-content h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+#org{
+    color: rgba(254, 163, 1, 1);
+}
+#blue{
+    color: rgba(1, 172, 253, 1);
+}
+
+.banner-content p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.banner-content button{
+    width: 197px;
+    height: 50px;
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 24px;
+}
