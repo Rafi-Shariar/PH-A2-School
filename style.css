@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     font-family: "Quicksand", serif;
     margin: 0;
@@ -6,12 +7,12 @@
 }
 
 main{
-    width: 1200px;
+    width: 1440px;
     margin: 0px auto;
 }
 /* header section*/
 .header{
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0px auto;
     margin-top: 20px;
 }
@@ -75,7 +76,7 @@ a{
 
 /* Banner - section */
 .banner{
-    width: 1200px;
+    width: 1440px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -194,4 +195,133 @@ a{
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+}
+
+/* story section */
+
+.Our-Stories{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Stories h1{
+    font-size: 2.9rem;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 80px;
+    margin-top: 60px;
+
+}
+.story1 img{
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+.story1{
+    width: 541px;
+    border-radius: 16px;
+    border: 1px solid black;
+
+    position: relative;
+
+}
+
+.story1 button{
+    background: rgba(60, 216, 232, 1);
+    border-radius: 48px;
+    color: white;
+    font-family: "Raleway", serif;
+    width: 175px;
+    height: 48px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    margin-left: 38px;
+
+    position: absolute;
+    left: 0px;
+    top: 310px;
+
+}
+
+.story1 h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-left: 38px;
+    margin-top: 35px;
+}
+
+.story1 p{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 29px;
+    color: rgba(102, 102, 102, 1);
+    margin-left: 38px;
+    margin-bottom: 34px;
+}
+
+/* Grid Stories */
+.grid-story img{
+    border-radius: 16px 16px 0 0;
+}
+.grid-story{
+    width: 290px;
+    border-radius: 16px;
+    border: 1px solid black;
+
+    position: relative;
+}
+
+.grid-story button{
+    width: 174px;
+    height: 39px;
+    background: rgba(149, 178, 38, 1);
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Raleway", serif;
+    border: 0;
+    border-radius: 48px;
+    margin-left: 38px;
+
+    position: absolute;
+    top: 160px;
+}
+
+.grid-story h3{
+    font-size: 1rem;
+    line-height: 29px;
+    margin-left: 38px;
+    margin-bottom: 34px;
+    margin-top: 24px;
+}
+#spbtn{
+    background: rgba(93, 88, 240, 1);
+}
+
+.grid-stories{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.story-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.story-btn button{
+    width: 197px;
+    height: 50px;
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 24px;
+    text-align: center;
+    margin-top: 80px;
+ 
 }
