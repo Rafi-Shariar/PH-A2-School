@@ -1,4 +1,4 @@
-@media screen and (max-width:425px){
+@media screen and (max-width:427px){
 
     .banner,main,.header,.footer{
         max-width: 90%;
@@ -116,6 +116,21 @@
 
     .footer3{
         margin-bottom: 50px;
+    }
+
+
+    .story1{
+        background: white;
+    }
+
+    .card p{
+        font-size: smaller;
+    }
+
+    .story-btn button{
+        width: 134px;
+        height: 30px;
+        font-size: 1rem;
     }
 
 
