@@ -7,12 +7,12 @@
 }
 
 main{
-    width: 1440px;
+    width: 1250px;
     margin: 0px auto;
 }
 /* header section*/
 .header{
-    max-width: 1440px;
+    max-width: 1250px;
     margin: 0px auto;
     margin-top: 20px;
 }
@@ -76,7 +76,7 @@ a{
 
 /* Banner - section */
 .banner{
-    width: 1440px;
+    width: 1250px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
