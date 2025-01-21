@@ -404,3 +404,13 @@ footer{
     background: white;
     border: 0;
 }
+
+
+/* Marquee */
+.marquee{
+    width: 1000px;
+    margin: 0px auto;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(236, 95, 43);
+}

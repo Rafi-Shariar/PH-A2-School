@@ -58,6 +58,10 @@
 
     }
 
+    .curriculam h1{
+        font-size: 1.6rem;
+    }
+
 
     /* grid story section */
 
@@ -134,19 +138,27 @@
     }
 
 
+    .logo{
+        margin-top: 10px;
+    }
+
+    .Stories h1{
+        font-size: 26px;
+    }
+
+
+    .marquee{
+        width: 300px;
+        margin: 0px auto;
+        font-size: 30px;
+        font-weight: 700;
+        color: rgb(236, 95, 43);
+    }
+
+
+
 
     
-
-
-
-
-
-
-
-
-
-
-
 
 
 
